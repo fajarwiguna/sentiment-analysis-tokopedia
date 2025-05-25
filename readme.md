@@ -44,7 +44,7 @@ Using `google_play_scraper` to fetch up to 10,000 user reviews for the Tokopedia
 from google_play_scraper import reviews
 Output is saved in the file data_tokopedia_reviews.csv.
 ```
-2. Preprocessing & Labeling
+### 2. Preprocessing & Labeling
 Remove unnecessary characters, numbers, punctuation, and stopwords.
 
 Sentiment labels are assigned based on ratings:
@@ -55,7 +55,7 @@ Sentiment labels are assigned based on ratings:
 
 ⭐ 4–5 → Positive
 
-3. Built Model Schemes
+### 3. Built Model Schemes
 ✅ Scheme 1: TF-IDF + SVM
 TF-IDF vectorization
 
@@ -77,8 +77,7 @@ Architecture: LSTM + Bidirectional + Dropout
 
 Final activation: Softmax for 3 classes
 
-📈 Example Results 
-📈 Example Results
+### 📈 Example Results 
 
 ```yaml
 TF-IDF + SVM Accuracy    : 0.989
@@ -86,7 +85,7 @@ Word2Vec + RF Accuracy   : 0.989
 LSTM Accuracy            : 0.9905
 Results may vary depending on dataset & random state.
 ```
-🧪 Example Inference
+### 🧪 Example Inference
 
 ```python
 # TF-IDF + SVM
@@ -99,19 +98,19 @@ Results may vary depending on dataset & random state.
 "This product is really cool" → Prediction: POSITIVE
 ```
 
-📌 Notes
+## 📌 Notes
 The dataset is dynamic and depends on the latest reviews.
 
 LSTM is suitable for large-scale data but requires longer training time.
 
 Word2Vec is good for generating reusable embeddings for other projects.
 
-📂 Output
+## 📂 Output
 data_tokopedia_reviews.csv — Dataset from scraping
 
 Inference models are available at the end of each scheme notebook
 
-📄 License
+## 📄 License
 This project is created for educational and research purposes.
 Data is publicly sourced from Google Play Store. Use responsibly.
 
