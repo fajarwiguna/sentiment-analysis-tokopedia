@@ -76,13 +76,13 @@ Architecture: LSTM + Bidirectional + Dropout
 
 Final activation: Softmax for 3 classes
 
-📈 Example Results (Dummy Output)
+📈 Example Results 
 yaml
 Copy
 Edit
-TF-IDF + SVM Accuracy    : 0.83
-Word2Vec + RF Accuracy   : 0.81
-LSTM Accuracy            : 0.85
+TF-IDF + SVM Accuracy    : 0.989
+Word2Vec + RF Accuracy   : 0.989
+LSTM Accuracy            : 0.9905
 Results may vary depending on dataset & random state.
 
 🧪 Example Inference
