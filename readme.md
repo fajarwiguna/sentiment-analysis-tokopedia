@@ -42,7 +42,7 @@ Using `google_play_scraper` to fetch up to 10,000 user reviews for the Tokopedia
 ```python
 from google_play_scraper import reviews
 Output is saved in the file data_tokopedia_reviews.csv.
-
+```
 2. Preprocessing & Labeling
 Remove unnecessary characters, numbers, punctuation, and stopwords.
 
