@@ -1,4 +1,4 @@
-# Sentiment Analysis of Tokopedia App Reviews 🇬🇧📱
+# Sentiment Analysis of Tokopedia App Reviews📱
 
 This project performs **web scraping** of Tokopedia app reviews from the Google Play Store and builds **sentiment analysis** models using various machine learning and deep learning approaches.
 
